@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the trained model
-with open('carbon_emission_model.sav', 'rb') as file:
+with open('carbon_emission_predictor.sav', 'rb') as file:
     model = pickle.load(file)
 
 # App title
